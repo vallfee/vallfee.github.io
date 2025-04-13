@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @media screen and (max-width: 720px) {
   #line2{
-    display: flex;
+    display: block;
   }
 
 
@@ -29,6 +29,13 @@
 
 
   #welcome-info2{
+    display: none;
+  }
+
+  #welcome-text1{
+    display: block;
+  }
+  #line1{
     display: none;
   }
 }
