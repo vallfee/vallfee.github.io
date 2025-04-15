@@ -1,41 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @media screen and (max-width: 720px) {
-  .line2{
+  #line2{
     display: block;
   }
 
 
-  .line1{
+  #line1{
     display: none;
   }
 
 
-  .welcome-info2{
+  .#welcome-info2{
     display: block;
   }
 
 
-  .welcome-info1{
+  #welcome-info1{
     display: none;
   }
 }
 
 
 @media screen and (min-width: 721px) {
-  .line2{
+  #line2{
     display: none;
 
   }
 
 
-  .welcome-info2{
+  #welcome-info2{
     display: none;
   }
 
-  .welcome-text1{
+  #welcome-text1{
     display: block;
   }
-  .line1{
+  #line1{
     display: block;
   }
 }
@@ -214,7 +214,7 @@ a:hover {
 }
 
 
-.welcome-text
+#welcome-text
 {
     
     top: 48px;
@@ -228,7 +228,7 @@ a:hover {
 }
 
 
-.hi
+#hi
 {
     font-size: 72px;
     font-family: "Montserrat";
@@ -239,7 +239,7 @@ a:hover {
 
 
 
-.line1
+#line1
 {
     width: 4px;
     height: 128px;
@@ -247,7 +247,7 @@ a:hover {
 }
 
 
-.line2 {
+#line2 {
   width: 640px;
   height: 4px;
   background: linear-gradient(
@@ -261,7 +261,7 @@ a:hover {
 
 
 
-.welcome-info1
+#welcome-info1
 {
     font-size: 18px;
     font-weight: 500;
@@ -270,7 +270,7 @@ a:hover {
 }
 
 
-.welcome-info2
+#welcome-info2
 {
     font-size: 18px;
     font-weight: 500;
@@ -279,7 +279,7 @@ a:hover {
 }
 
 
-.line-raz {
+#line-raz {
   width: 100%;
   height: 4px;
   background: #cccccc00;
