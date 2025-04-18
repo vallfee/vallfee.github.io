@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 960px) {
   #line2{
     display: block;
   }
@@ -31,7 +31,7 @@
 }
 
 
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 961px) {
   #line2{
     display: none;
 
