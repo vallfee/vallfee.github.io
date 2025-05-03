@@ -134,7 +134,7 @@ body {
 }
 
 .container {
-  width: 560px;
+  width: 1150px;
   margin: 0 auto;
   padding: 20px;
   background-color: #111111 ;
@@ -158,16 +158,11 @@ header {
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: inline-block;
-  height: 48px;
+  padding-bottom: 10px;
   align-items: center;
   font-family: "Montserrat";
   box-shadow: 0 0 16px rgba(0, 0, 0, .75);
   backdrop-filter: blur(10px);
-}
-
-
-.lologo{
-  width 96px;
 }
 
 .navbar {
@@ -178,9 +173,17 @@ header {
 
 
 
+
+
+
   link 
 {
     text-decoration: none;
+}
+
+
+.lologo{
+  width: 125px;
 }
 
 
@@ -269,6 +272,8 @@ header {
 
   .header{
     height: 96px;
+    width: 125px;
+    padding-bottom: 5px;
   }
 
 
