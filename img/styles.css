@@ -158,20 +158,18 @@ header {
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: inline-block;
-  padding-bottom: 10px;
+  height: 48px;
   align-items: center;
   font-family: "Montserrat";
   box-shadow: 0 0 16px rgba(0, 0, 0, .75);
   backdrop-filter: blur(10px);
+  font-size: 18px;
 }
 
 .navbar {
   justify-content: space-between;
   display: flex;
 }
-
-
-
 
 
 
@@ -183,7 +181,7 @@ header {
 
 
 .lologo{
-  width: 125px;
+  width: 112px;
 }
 
 
@@ -273,12 +271,12 @@ header {
   .header{
     height: 96px;
     width: 125px;
-    padding-bottom: 5px;
+    font-size: 38px;
   }
 
 
   .lologo{
-    width: 175px;
+    width: 215px;
   }
 
 
