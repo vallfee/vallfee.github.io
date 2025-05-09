@@ -50,7 +50,7 @@ function animateText(animation) {
             if (currentText === "Привет!") {
                 textElement.style.fontSize = "114px";
             } else {
-                textElement.style.fontSize = "77px";
+                textElement.style.fontSize = "44px";
             }
         }
 
