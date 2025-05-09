@@ -107,6 +107,51 @@
 }
 
 
+@keyframes fade {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
+#animated-text-1 {
+font-size: 72px;
+font-family: "Montserrat";
+font-weight: 600;
+text-shadow: rgba(0, 0, 0, .4) 0px 0 20px;
+opacity: 1;
+transition: opacity 1s;
+}
+
+
+#animated-text-2{
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-shadow: rgba(0, 0, 0, .4) 0px 0 20px;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+
+#animated-text-22{
+  font-size: 38px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-shadow: rgba(0, 0, 0, .4) 0px 0 20px;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.hidden {
+opacity: 0;
+}
+
+.visible {
+opacity: 1;
+}
+
+
+
 
 
 #hi
@@ -126,6 +171,10 @@
     width: 100%;
     align: center;
 }
+
+
+
+
 
 
 
@@ -166,6 +215,12 @@ header {
   font-size: 18px;
 }
 
+.header-text
+{
+  font-size: 18px;
+  text-align: center;
+}
+
 .navbar {
   justify-content: space-between;
   display: flex;
@@ -174,10 +229,6 @@ header {
 
 
 
-  link 
-{
-    text-decoration: none;
-}
 
 
 .lologo{
@@ -220,9 +271,6 @@ header {
 }
 
 
-
-
-
 #welcome-info1
 {
     font-size: 18px;
@@ -253,6 +301,11 @@ header {
 
 
 @media screen and (max-width: 1300px) {
+  .header-text
+  {
+    font-size: 40px;
+  }
+
   #line2{
     display: block;
   }
@@ -268,9 +321,14 @@ header {
   }
 
 
-  .header{
+  header{
     height: 96px;
     width: 125px;
+    font-size: 38px;
+  }
+
+
+  .header-text{
     font-size: 38px;
   }
 
@@ -281,6 +339,22 @@ header {
 
 
   #welcome-info2{
+    display: block;
+  }
+
+
+  #animated-text-1 {
+    font-size: 114px;
+    font-weight: 600;
+  }
+
+
+  #animated-text-2{
+    display: none;
+  }
+
+
+  #animated-text-22{
     display: block;
   }
 
@@ -347,6 +421,11 @@ header {
 
 @media screen and (min-width: 1301px) 
 {
+  .header-text
+  {
+    font-size: 10px;
+  }
+
       #line2{
         display: none;
 
@@ -364,6 +443,13 @@ header {
         display: block;
       }
 
+
+      #animated-text-2{
+        display: block;
+      }
+      #animated-text-22{
+        display: none;
+      }
 }
 
 
