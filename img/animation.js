@@ -1,20 +1,26 @@
 const animations = [
     {
         elementId: "animated-text-1",
-        texts: ["Привет!", "Играю в майнкрафт 4 года"]
+        texts: [
+            "Привет!", 
+            "Салют!",
+            "Здравствуйте!"
+        ]
     },
     {
         elementId: "animated-text-2",
         texts: [
             "Меня зовут Вадим.<br>Я Бедварсер из России.",
-            "Играю в игры: Roblox, GTA V, <br>Amanda The Adventurer, Portal 2, CS2"
+            "Зовут меня Вадим.<br>Я есть Бедварсер из России",
+            "Меня звать Вадим.<br>Я играю в бедварс.<br>Проживаю в России.
         ]
     },
     {
         elementId: "animated-text-22",
         texts: [
             "Меня зовут Вадим.<br>Я Бедварсер из России.",
-            "Играю в игры: Roblox, <br>GTA V, Amanda The Adventurer, <br>Portal 2, CS2"
+            "Зовут меня Вадим.<br>Я есть Бедварсер из России",
+            "Меня звать Вадим.<br>Я играю в бедварс.<br>Проживаю в России.
         ]
     }
 ];
