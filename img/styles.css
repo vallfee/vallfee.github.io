@@ -321,13 +321,17 @@ header {
   }
 
 
-  header{
+  header {
+    width: 100vw;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
     height: 96px;
     width: 125px;
     font-size: 38px;
   }
-
-
   .header-text{
     font-size: 38px;
   }
