@@ -318,7 +318,7 @@ header {
 
 
   header{
-    height: 68px;
+    height: 58px;
     width: 100%;
     font-size: 38px;
   }
@@ -361,48 +361,44 @@ header {
 
 
   .btn-yt{
-    padding-bottom: 5px;
     margin-top: 80px;
     margin-bottom: 420px;
     border-radius: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 23px;
+    padding-bottom: 23px;
     font-size: 60px;
     font-weight: 600;
   }
 
 
   .btn-nm{
-    padding-bottom: 5px;
-    margin-top: 45px;
+    margin-top: 80px;
     margin-bottom: 420px;
     border-radius: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 23px;
+    padding-bottom: 23px;
     font-size: 60px;
     font-weight: 600;
   }
 
 
   .btn-ds{
-    padding-bottom: 5px;
-    margin-top: 45px;
+    margin-top: 80px;
     margin-bottom: 420px;
     border-radius: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 23px;
+    padding-bottom: 23px;
     font-size: 60px;
     font-weight: 600;
   }
 
 
   .btn-sf{
-    padding-bottom: 5px;
-    margin-top: 45px;
+    margin-top: 80px;
     margin-bottom: 420px;
     border-radius: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 23px;
+    padding-bottom: 23px;
     font-size: 60px;
     font-weight: 600;
   }
