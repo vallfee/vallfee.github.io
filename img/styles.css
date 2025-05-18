@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .btn-yt
@@ -215,11 +216,6 @@ header {
   font-size: 18px;
 }
 
-.header-text
-{
-  font-size: 18px;
-  text-align: center;
-}
 
 .navbar {
   justify-content: space-between;
@@ -321,17 +317,13 @@ header {
   }
 
 
-  header {
-    width: 100vw;
-    left: 0;
-    right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    box-sizing: border-box;
-    height: 96px;
-    width: 125px;
+  header{
+    height: 68px;
+    width: 100%;
     font-size: 38px;
   }
+
+
   .header-text{
     font-size: 38px;
   }
@@ -369,49 +361,50 @@ header {
 
 
   .btn-yt{
-    margin-top: 45px;
-    margin-bottom: 155px;
+    padding-bottom: 5px;
+    margin-top: 80px;
+    margin-bottom: 420px;
     border-radius: 60px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 55px;
-    font-weight:650;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 60px;
+    font-weight: 600;
   }
 
 
   .btn-nm{
     padding-bottom: 5px;
     margin-top: 45px;
-    margin-bottom: 155px;
+    margin-bottom: 420px;
     border-radius: 60px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 55px;
-    font-weight: 550;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 60px;
+    font-weight: 600;
   }
 
 
   .btn-ds{
     padding-bottom: 5px;
     margin-top: 45px;
-    margin-bottom: 155px;
+    margin-bottom: 420px;
     border-radius: 60px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 55px;
-    font-weight: 550;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 60px;
+    font-weight: 600;
   }
 
 
   .btn-sf{
     padding-bottom: 5px;
     margin-top: 45px;
-    margin-bottom: 155px;
+    margin-bottom: 420px;
     border-radius: 60px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 55px;
-    font-weight: 550;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 60px;
+    font-weight: 600;
   }
 
 
