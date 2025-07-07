@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.btn-yt
+.btn-stm
 {
-  background-color: #ff1414;
+  background-color: #3366ff;
   background-position: center;
   background-size: 200px;
   font-size: 35px;
@@ -22,7 +22,7 @@
 }
 
 
-.btn-yt:hover
+.btn-stm:hover
 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
