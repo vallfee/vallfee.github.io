@@ -4,7 +4,7 @@ const animations = [
         texts: [
             "Привет!", 
             "Салют!",
-            "Здравствуйте!"
+            "Здравствуй!"
         ]
     },
     {
@@ -12,7 +12,7 @@ const animations = [
         texts: [
             "Меня зовут Вадим.<br>Я Бедварсер из России.",
             "Зовут меня Вадим.<br>Я есть Бедварсер из России",
-            "Меня звать Вадим.<br>Я играю в бедварс.<br>Проживаю в России.
+            "Меня звать Вадим.<br>Я играю в бедварс.<br>Проживаю в России."
         ]
     },
     {
@@ -20,7 +20,7 @@ const animations = [
         texts: [
             "Меня зовут Вадим.<br>Я Бедварсер из России.",
             "Зовут меня Вадим.<br>Я есть Бедварсер из России",
-            "Меня звать Вадим.<br>Я играю в бедварс.<br>Проживаю в России.
+            "Меня звать Вадим.<br>Я играю в бедварс.<br>Проживаю в России."
         ]
     }
 ];
@@ -51,15 +51,6 @@ function animateText(animation) {
         // Step 1: Show original text
         textElement.innerHTML = currentText;
 
-        // Dynamically change font size for animated-text-1
-        if (animation.elementId === "animated-text-1") {
-            if (currentText === "Привет!") {
-                textElement.style.fontSize = "114px";
-            } else {
-                textElement.style.fontSize = "44px";
-            }
-        }
-
         textElement.classList.remove("hidden");
         textElement.classList.add("visible");
 
@@ -74,15 +65,6 @@ function animateText(animation) {
                     // Step 3: Transition to next text
                     currentIndex = (currentIndex + 1) % animation.texts.length;
                     textElement.innerHTML = animation.texts[currentIndex];
-
-                    // Update font size again
-                    if (animation.elementId === "animated-text-1") {
-                        if (animation.texts[currentIndex] === "Привет!") {
-                            textElement.style.fontSize = "114px";
-                        } else {
-                            textElement.style.fontSize = "64px";
-                        }
-                    }
                 }
             }, 100);
         }, 3000);
